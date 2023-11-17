@@ -14,6 +14,8 @@
 		63B4A2082B076F9600E9D9C4 /* TextReminderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4A2072B076F9600E9D9C4 /* TextReminderAppTests.swift */; };
 		63B4A2122B076F9600E9D9C4 /* TextReminderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4A2112B076F9600E9D9C4 /* TextReminderAppUITests.swift */; };
 		63B4A2142B076F9600E9D9C4 /* TextReminderAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4A2132B076F9600E9D9C4 /* TextReminderAppUITestsLaunchTests.swift */; };
+		63B4A2212B07700E00E9D9C4 /* TextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4A2202B07700E00E9D9C4 /* TextViewModel.swift */; };
+		63B4A2232B07702C00E9D9C4 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4A2222B07702C00E9D9C4 /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		63B4A20D2B076F9600E9D9C4 /* TextReminderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextReminderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B4A2112B076F9600E9D9C4 /* TextReminderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextReminderAppUITests.swift; sourceTree = "<group>"; };
 		63B4A2132B076F9600E9D9C4 /* TextReminderAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextReminderAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63B4A2202B07700E00E9D9C4 /* TextViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewModel.swift; sourceTree = "<group>"; };
+		63B4A2222B07702C00E9D9C4 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				63B4A1F92B076F9600E9D9C4 /* Assets.xcassets */,
 				63B4A1FB2B076F9600E9D9C4 /* TextReminderApp.entitlements */,
 				63B4A1FC2B076F9600E9D9C4 /* Preview Content */,
+				63B4A2202B07700E00E9D9C4 /* TextViewModel.swift */,
+				63B4A2222B07702C00E9D9C4 /* NotificationManager.swift */,
 			);
 			path = TextReminderApp;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B4A2212B07700E00E9D9C4 /* TextViewModel.swift in Sources */,
 				63B4A1F82B076F9400E9D9C4 /* ContentView.swift in Sources */,
+				63B4A2232B07702C00E9D9C4 /* NotificationManager.swift in Sources */,
 				63B4A1F62B076F9400E9D9C4 /* TextReminderAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
